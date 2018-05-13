@@ -11,7 +11,7 @@ public class Main {
 
         Random losowanieKart = new Random();
         while(true) {
-            int wartosc = losowanieKart.nextInt(14);
+            int wartosc = losowanieKart.nextInt(15);
             int kolor = losowanieKart.nextInt(4);
             if (wartosc == 0) {
                 break;
